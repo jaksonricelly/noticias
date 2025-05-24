@@ -32,7 +32,7 @@ body {
   background: none;
 }
 
-.primeira-secao{
+.primeira-secao {
   margin-bottom: 4rem;
 }
 
@@ -42,10 +42,10 @@ body {
 }
 
 .primeira-secao h1 {
-font-size: 2.5rem;
-line-height: 100%; 
-margin-bottom: 1rem;
-color: var(--dark-blue);
+  font-size: 2.5rem;
+  line-height: 100%;
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
 }
 
 .primeira-secao p {
@@ -55,7 +55,7 @@ color: var(--dark-blue);
   margin-bottom: 1.5rem;
 }
 
-.primeira-secao button{
+.primeira-secao button {
   padding: 0.75rem 2rem;
   background-color: var(--vermillion);
   border: none;
@@ -67,9 +67,7 @@ color: var(--dark-blue);
   line-height: 1.5rem;
 }
 
-.segunda-secao
-{
-
+.segunda-secao {
   background-color: var(--dark-blue);
   margin-bottom: 4rem;
   padding: 1.5rem 1rem;
@@ -85,15 +83,13 @@ color: var(--dark-blue);
   padding-bottom: 2rem;
 }
 
-
 .segunda-secao h2 {
   font-size: 2rem;
   line-height: 100%;
   color: var(--yellow);
 }
 
-.segunda-secao h3 
-{
+.segunda-secao h3 {
   color: var(--almost-white);
   font-size: 1.25rem;
   line-height: 1.5rem;
@@ -101,8 +97,42 @@ color: var(--dark-blue);
   margin-bottom: 0.5rem;
 }
 
-.segunda-secao p{
+.segunda-secao p {
   color: var(--silver);
   font-size: 0.9575rem;
+  line-height: 1.625rem;
+}
+
+.terceira-secao > div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.terceira-secao img{
+  max-width: 6.25rem;
+}
+
+.terceira-secao strong {
+  color: var(--silver);
+  font-size: 2rem;
+  line-height: 100%;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.terceira-secao h2{
+  font-size: 1.125rem;
+  color: var(--dark-blue);
+  font-weight: 800;
+  line-height: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.terceira-secao p {
+  color: var(--gunmetal);
+  font-size: 0.9375rem;
   line-height: 1.625rem;
 }
