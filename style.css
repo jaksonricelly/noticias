@@ -66,3 +66,43 @@ color: var(--dark-blue);
   letter-spacing: 0.25rem;
   line-height: 1.5rem;
 }
+
+.segunda-secao
+{
+
+  background-color: var(--dark-blue);
+  margin-bottom: 4rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.segunda-secao div:nth-of-type(2) {
+  padding-top: 2rem;
+  border-top: 1px solid var(--gunmetal);
+  border-bottom: 1px solid var(--gunmetal);
+  padding-bottom: 2rem;
+}
+
+
+.segunda-secao h2 {
+  font-size: 2rem;
+  line-height: 100%;
+  color: var(--yellow);
+}
+
+.segunda-secao h3 
+{
+  color: var(--almost-white);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.segunda-secao p{
+  color: var(--silver);
+  font-size: 0.9575rem;
+  line-height: 1.625rem;
+}
