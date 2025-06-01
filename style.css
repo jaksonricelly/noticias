@@ -243,10 +243,14 @@ footer p {
     line-height: 1.625rem;
     text-decoration: none;
     color: var(--gunmetal);
+    font-weight: 500;
 
   }
 
   header .desktop a:hover {
-    color: var(--vermillion)
+    color: var(--vermillion);
+    border-bottom: 1px solid var(--vermillion);
   }
+
+
 }
