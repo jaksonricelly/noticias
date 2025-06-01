@@ -44,6 +44,7 @@ header button {
   border: none;
   background: none;
   width: fit-content;
+  cursor: pointer;
 }
 
 header nav.mobile{
@@ -79,6 +80,10 @@ header .mobile a {
   color: var(--dark-blue);
   font-size: 1.125rem;
   line-height: 1.5rem;
+}
+
+header .desktop{
+  display: none;
 }
 
 main {
@@ -189,6 +194,22 @@ main {
   color: var(--gunmetal);
   font-size: 0.9375rem;
   line-height: 1.625rem;
+}
+
+footer{
+  background-color: var(--dark-blue);
+  color: #c5c6ce;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+footer p {
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
 @media(min-width: 1110px) {
